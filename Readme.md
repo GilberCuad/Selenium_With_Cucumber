@@ -9,5 +9,5 @@
 ## Terminal execution by tags
 - mvn clean test-Dgroups="NameTag"
 
-## Locations reports
-- start targetopen .\target\cucumber-html-reports\overview-failures.html
+## Execution cucumber reports
+- start target\cucumber-html-reports\overview-failures.html

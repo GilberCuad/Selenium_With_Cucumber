@@ -1,10 +1,9 @@
-16:10:17.925 INFO  AUTOMATION - se ejecuta el info
-16:10:18.101 INFO  AUTOMATION - Executing before: Exercise Three
-16:10:18.162 INFO  AUTOMATION - Number generated for a: 6
-16:10:18.163 INFO  AUTOMATION - Number generated for b: 8
-16:10:18.172 INFO  AUTOMATION - Executing before finalized of scenario: Exercise Three, status: PASSED
-16:10:18.187 INFO  AUTOMATION - Executing before: Exercise Four
-16:10:18.189 INFO  AUTOMATION - Number generated for a: 5
-16:10:18.190 INFO  AUTOMATION - Number generated for b: 8
-16:10:18.194 INFO  AUTOMATION - Executing before finalized of scenario: Exercise Four, status: PASSED
-16:10:18.197 INFO  AUTOMATION - Executing afterAll
+18:01:58.052 INFO  AUTOMATION - Initialized driver
+18:02:00.560 DEBUG AUTOMATION - Maximized display
+18:02:00.703 DEBUG AUTOMATION - Deleting cookies
+18:02:00.717 DEBUG AUTOMATION - Saving driver initialized
+18:02:00.723 INFO  AUTOMATION - Visit the page https://www.saucedemo.com/
+18:02:01.614 INFO  AUTOMATION - Visit other page https://github.com/
+18:02:05.661 INFO  AUTOMATION - The user back page with driver
+18:02:05.815 INFO  AUTOMATION - Get to url
+18:02:05.845 INFO  AUTOMATION - Dead driver
