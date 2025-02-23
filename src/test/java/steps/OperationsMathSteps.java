@@ -16,10 +16,8 @@ public class OperationsMathSteps {
         a = faker.number().numberBetween(5,10);
         b = faker.number().numberBetween(5,10);
 
-        Logs.info("a: %d", a);
-        Logs.info("b: %d", b);
-
-        System.out.println("Valores generados: " + a + " b " + b);
+        Logs.info("Number a: %d", a);
+        Logs.info("Number b: %d", b);
     }
 
 
