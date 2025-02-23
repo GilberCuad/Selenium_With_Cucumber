@@ -16,8 +16,8 @@ public class OperationsMathSteps {
         a = faker.number().numberBetween(5,10);
         b = faker.number().numberBetween(5,10);
 
-        Logs.info("Number a: %d", a);
-        Logs.info("Number b: %d", b);
+        Logs.info("Number generated for a: %d", a);
+        Logs.info("Number generated for b: %d", b);
     }
 
 
@@ -28,7 +28,7 @@ public class OperationsMathSteps {
 
     @Then("The user display sum in console")
     public void displaySum() {
-        System.out.println("lA SUMA ES: " + sum);
+        Logs.info("The result of sum is: %d ", sum);
     }
 
     @When("The user multiplies two values")
@@ -38,7 +38,8 @@ public class OperationsMathSteps {
 
     @Then("The user display product in console")
     public void displayProduct() {
-        System.out.println("Product : " + product);
+        //Logs.info("The result of product is: %d ", product);
+        System.out.println("The result of product is: " + product);
     }
 
     @When("The user cubes both values")
@@ -49,8 +50,8 @@ public class OperationsMathSteps {
 
     @Then("The user display both powers in console")
     public void displayPowers() {
-        System.out.println("Potencia  de a : " + aCubo);
-        System.out.println("Potencia  de b : " + bCubo);
+        System.out.println("The result of product A is: " + aCubo);
+        System.out.println("The result of product B is: " + bCubo);
     }
 
     @When("The user make root square of both values")
@@ -61,8 +62,8 @@ public class OperationsMathSteps {
 
     @Then("The user display both roots in console")
     public void displayRoot() {
-        System.out.println("Raiz  de a : " + aRoot);
-        System.out.println("Raiz  de b : " + bRoot);
+        System.out.println("The result of root A is: " + aRoot);
+        System.out.println("The result of root B is: " + bRoot);
     }
 
 }

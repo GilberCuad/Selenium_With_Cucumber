@@ -8,6 +8,6 @@ Feature: Operations Two
     Then The user display both powers in console
 
   @ticketSmoke
-  Scenario: Four
+  Scenario: Exercise Four
     When The user make root square of both values
     Then The user display both roots in console

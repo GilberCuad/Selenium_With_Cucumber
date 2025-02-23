@@ -1,4 +1,10 @@
-15:44:03.128 INFO  AUTOMATION - Hi, this information
-15:44:03.135 ERROR AUTOMATION - Error
-15:44:03.136 DEBUG AUTOMATION - debug
-15:44:03.136 TRACE AUTOMATION - trace information
+16:09:04.763 INFO  AUTOMATION - se ejecuta el info
+16:09:04.936 INFO  AUTOMATION - Executing before: Exercise Three
+16:09:05.006 INFO  AUTOMATION - Number generated for a: 7
+16:09:05.006 INFO  AUTOMATION - Number generated for b: 8
+16:09:05.017 INFO  AUTOMATION - Executing before finalized of scenario: Exercise Three, status: PASSED
+16:09:05.034 INFO  AUTOMATION - Executing before: Exercise Four
+16:09:05.035 INFO  AUTOMATION - Number generated for a: 6
+16:09:05.036 INFO  AUTOMATION - Number generated for b: 8
+16:09:05.051 INFO  AUTOMATION - Executing before finalized of scenario: Exercise Four, status: FAILED
+16:09:05.055 INFO  AUTOMATION - Executing afterAll

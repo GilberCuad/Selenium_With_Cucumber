@@ -1,10 +1,10 @@
-15:51:37.303 INFO  AUTOMATION - se ejecuta el info
-15:51:37.514 INFO  AUTOMATION - Executing before: Exercise Two
-15:51:37.566 INFO  AUTOMATION - a: 5
-15:51:37.567 INFO  AUTOMATION - b: 8
-15:51:37.575 INFO  AUTOMATION - Executing before finalized of scenario: Exercise Two, status: PASSED
-15:51:37.604 INFO  AUTOMATION - Executing before: Four
-15:51:37.605 INFO  AUTOMATION - a: 5
-15:51:37.605 INFO  AUTOMATION - b: 5
-15:51:37.610 INFO  AUTOMATION - Executing before finalized of scenario: Four, status: PASSED
-15:51:37.616 INFO  AUTOMATION - Executing afterAll
+16:10:17.925 INFO  AUTOMATION - se ejecuta el info
+16:10:18.101 INFO  AUTOMATION - Executing before: Exercise Three
+16:10:18.162 INFO  AUTOMATION - Number generated for a: 6
+16:10:18.163 INFO  AUTOMATION - Number generated for b: 8
+16:10:18.172 INFO  AUTOMATION - Executing before finalized of scenario: Exercise Three, status: PASSED
+16:10:18.187 INFO  AUTOMATION - Executing before: Exercise Four
+16:10:18.189 INFO  AUTOMATION - Number generated for a: 5
+16:10:18.190 INFO  AUTOMATION - Number generated for b: 8
+16:10:18.194 INFO  AUTOMATION - Executing before finalized of scenario: Exercise Four, status: PASSED
+16:10:18.197 INFO  AUTOMATION - Executing afterAll
