@@ -7,6 +7,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import utilities.Logs;
 import utilities.WebDriverProvider;
 
+import java.time.Duration;
+
 public class Hooks {
     private static WebDriver driver;
 
@@ -20,6 +22,10 @@ public class Hooks {
 
         Logs.debug("Deleting cookies");
         driver.manage().deleteAllCookies();
+
+        Logs.debug("Adding implicit wait");
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+        // this is wait implicit global
 
         Logs.debug("Saving driver initialized");
         new WebDriverProvider().set(driver);

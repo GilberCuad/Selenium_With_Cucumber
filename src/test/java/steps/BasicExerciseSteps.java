@@ -9,7 +9,7 @@ import org.openqa.selenium.WebDriver;
 import utilities.Logs;
 import utilities.WebDriverProvider;
 
-public class LoginSaucedemoSteps {
+public class BasicExerciseSteps {
     private String url;
 
     @Given("The user visit the page {string}")
