@@ -10,7 +10,7 @@ import org.openqa.selenium.WebDriver;
 import utilities.Logs;
 import utilities.WebDriverProvider;
 
-public class loginSteps {
+public class LoginStepsDefinitions {
 
     private WebDriver getDriver() {
         return new WebDriverProvider().get();
