@@ -1,11 +1,11 @@
-20:54:38.643 INFO  AUTOMATION - Initialized driver
-20:54:41.244 DEBUG AUTOMATION - Maximized display
-20:54:41.369 DEBUG AUTOMATION - Deleting cookies
-20:54:41.369 DEBUG AUTOMATION - Adding implicit wait
-20:54:41.385 DEBUG AUTOMATION - Saving driver initialized
-20:54:41.397 INFO  AUTOMATION - Visit the page https://www.saucedemo.com/ 
-20:54:42.311 INFO  AUTOMATION - The user write username locked_out_user 
-20:54:42.519 INFO  AUTOMATION - The user write password secret_sauce 
-20:54:42.649 INFO  AUTOMATION - The click on the button login
-20:54:42.754 INFO  AUTOMATION - Verifies that visible, see message
-20:54:42.808 INFO  AUTOMATION - Dead driver
+20:34:16.573 INFO  AUTOMATION - Initialized driver
+20:34:19.005 DEBUG AUTOMATION - Maximized display
+20:34:19.138 DEBUG AUTOMATION - Deleting cookies
+20:34:19.151 DEBUG AUTOMATION - Adding implicit wait
+20:34:19.157 DEBUG AUTOMATION - Saving driver initialized
+20:34:19.167 INFO  AUTOMATION - Visit the page https://www.saucedemo.com/ 
+20:34:20.346 INFO  AUTOMATION - The user write username
+20:34:20.704 INFO  AUTOMATION - The user write password
+20:34:21.063 INFO  AUTOMATION - The click on the button login
+20:34:21.252 INFO  AUTOMATION - Assertions
+20:34:21.541 INFO  AUTOMATION - Dead driver

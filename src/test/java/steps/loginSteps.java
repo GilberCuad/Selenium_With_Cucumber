@@ -22,18 +22,6 @@ public class loginSteps {
         getDriver().get(url);
     }
 
-    @When("The user write the username {string}")
-    public void writeUsername(String username) {
-        Logs.info("The user write username %s ", username);
-        getDriver().findElement(By.id("user-name")).sendKeys(username);
-    }
-
-    @And("The user write the password {string} locked")
-    public void writePassword(String password) {
-        Logs.info("The user write password %s ", password);
-        getDriver().findElement(By.id("password")).sendKeys(password);
-    }
-
     @And("The user click on login button")
     public void clickLoginButton() {
         Logs.info("The click on the button login");
@@ -51,5 +39,26 @@ public class loginSteps {
                 () -> Assertions.assertTrue(messagError.isDisplayed()),
                 () -> Assertions.assertEquals(messagError.getText(), textError)
         );
+    }
+
+    @Then("Verifies the page login UI")
+    public void verifiesPageLoginUI() {
+        Logs.info("Verifies the login page");
+
+        Assertions.assertAll(
+                () -> Assertions.assertTrue(getDriver().findElement(By.id("user-name")).isDisplayed(), "Username error"),
+                () -> Assertions.assertTrue(getDriver().findElement(By.id("password")).isDisplayed()),
+                () -> Assertions.assertTrue(getDriver().findElement(By.id("login-button")).isDisplayed()),
+                () -> Assertions.assertTrue(getDriver().findElement(By.className("login_logo")).isDisplayed())
+                );
+    }
+
+    @When("The user write the username {string} and write the password {string}")
+    public void loginUser(String username, String password) {
+        Logs.info("The user write username %s ", username);
+        getDriver().findElement(By.id("user-name")).sendKeys(username);
+
+        Logs.info("The user write password %s ", password);
+        getDriver().findElement(By.id("password")).sendKeys(password);
     }
 }
