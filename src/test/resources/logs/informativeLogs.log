@@ -1,9 +1,9 @@
-13:22:02.772 INFO  AUTOMATION - Initialized driver
-13:22:04.869 INFO  AUTOMATION - Visit the page https://www.saucedemo.com/ 
-13:22:05.740 INFO  AUTOMATION - The user write username
-13:22:05.892 INFO  AUTOMATION - The user write password
-13:22:06.040 INFO  AUTOMATION - The click on the button login
-13:22:06.148 INFO  AUTOMATION - Open burger menu
-13:22:06.216 INFO  AUTOMATION - Waiting burger menu
-13:22:07.724 INFO  AUTOMATION - Verify the button about
-13:22:07.761 INFO  AUTOMATION - Dead driver
+13:32:35.709 INFO  AUTOMATION - Initialized driver
+13:32:37.416 INFO  AUTOMATION - Visit the page https://www.saucedemo.com/ 
+13:32:38.236 INFO  AUTOMATION - The user write username
+13:32:38.385 INFO  AUTOMATION - The user write password
+13:32:38.516 INFO  AUTOMATION - The click on the button login
+13:32:38.622 INFO  AUTOMATION - Open burger menu
+13:32:38.686 INFO  AUTOMATION - Waiting burger menu
+13:32:40.200 INFO  AUTOMATION - Verify the button about
+13:32:40.232 INFO  AUTOMATION - Dead driver
