@@ -1,8 +1,7 @@
-12:24:39.528 INFO  AUTOMATION - Initialized driver
-12:24:41.445 INFO  AUTOMATION - Visit the page https://www.saucedemo.com/ 
-12:24:42.196 INFO  AUTOMATION - The user write username
-12:24:42.419 INFO  AUTOMATION - The user write password
-12:24:42.585 INFO  AUTOMATION - The click on the button login
-12:24:42.729 INFO  AUTOMATION - The user sort the items descending by name
-12:24:42.890 INFO  AUTOMATION - Waiting for order by page
-12:24:44.450 INFO  AUTOMATION - Dead driver
+17:20:29.349 INFO  AUTOMATION - Initialized driver
+17:20:31.924 INFO  AUTOMATION - The user write username standard_user 
+17:20:32.089 INFO  AUTOMATION - The user write password secret_sauce 
+17:20:32.232 INFO  AUTOMATION - The user click button login
+17:20:32.337 INFO  AUTOMATION - Adding all items to cart
+17:20:32.670 INFO  AUTOMATION - Verify number items the shopping cart
+17:20:32.725 INFO  AUTOMATION - Dead driver

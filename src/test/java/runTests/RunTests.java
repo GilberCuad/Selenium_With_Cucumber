@@ -1,4 +1,4 @@
-package executingTerminal;
+package runTests;
 
 import org.junit.platform.suite.api.IncludeEngines;
 import org.junit.platform.suite.api.Suite;

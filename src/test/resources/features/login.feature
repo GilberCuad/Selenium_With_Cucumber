@@ -7,7 +7,6 @@ Feature: Login on Saucedemo
   @scenarioOutlineLoginIncorrect
   Scenario Outline: Login with incorrect credentials
     When The user write the username <username> and write the password <password>
-    And The user click on login button
     Then The user verifies error message contains text <errorMessage>
 
     Examples:

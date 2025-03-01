@@ -1,7 +1,7 @@
 Feature: Login and shopping
 
   Background:
-    Given The user browse the page shopping "https://www.saucedemo.com/"
+    Given The user browse the page "https://www.saucedemo.com/"
     And The user browse to page shopping
     And The user click in first element
 

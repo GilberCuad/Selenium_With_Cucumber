@@ -6,7 +6,7 @@ public class WebDriverProvider {
     private static final ThreadLocal<WebDriver> threadLocal = new ThreadLocal<>();
 
     public void set(WebDriver driver) {
-      threadLocal.set(driver);
+        threadLocal.set(driver);
     }
 
     public WebDriver get() {
