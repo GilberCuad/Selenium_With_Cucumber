@@ -1,12 +1,13 @@
-12:24:39.528 INFO  AUTOMATION - Initialized driver
-12:24:41.270 DEBUG AUTOMATION - Maximized display
-12:24:41.422 DEBUG AUTOMATION - Deleting cookies
-12:24:41.433 DEBUG AUTOMATION - Adding implicit wait
-12:24:41.439 DEBUG AUTOMATION - Saving driver initialized
-12:24:41.445 INFO  AUTOMATION - Visit the page https://www.saucedemo.com/ 
-12:24:42.196 INFO  AUTOMATION - The user write username
-12:24:42.419 INFO  AUTOMATION - The user write password
-12:24:42.585 INFO  AUTOMATION - The click on the button login
-12:24:42.729 INFO  AUTOMATION - The user sort the items descending by name
-12:24:42.890 INFO  AUTOMATION - Waiting for order by page
-12:24:44.450 INFO  AUTOMATION - Dead driver
+13:22:02.772 INFO  AUTOMATION - Initialized driver
+13:22:04.730 DEBUG AUTOMATION - Maximized display
+13:22:04.853 DEBUG AUTOMATION - Deleting cookies
+13:22:04.853 DEBUG AUTOMATION - Adding implicit wait
+13:22:04.869 DEBUG AUTOMATION - Saving driver initialized
+13:22:04.869 INFO  AUTOMATION - Visit the page https://www.saucedemo.com/ 
+13:22:05.740 INFO  AUTOMATION - The user write username
+13:22:05.892 INFO  AUTOMATION - The user write password
+13:22:06.040 INFO  AUTOMATION - The click on the button login
+13:22:06.148 INFO  AUTOMATION - Open burger menu
+13:22:06.216 INFO  AUTOMATION - Waiting burger menu
+13:22:07.724 INFO  AUTOMATION - Verify the button about
+13:22:07.761 INFO  AUTOMATION - Dead driver
