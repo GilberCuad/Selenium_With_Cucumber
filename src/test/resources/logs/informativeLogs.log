@@ -1,7 +1,0 @@
-17:20:29.349 INFO  AUTOMATION - Initialized driver
-17:20:31.924 INFO  AUTOMATION - The user write username standard_user 
-17:20:32.089 INFO  AUTOMATION - The user write password secret_sauce 
-17:20:32.232 INFO  AUTOMATION - The user click button login
-17:20:32.337 INFO  AUTOMATION - Adding all items to cart
-17:20:32.670 INFO  AUTOMATION - Verify number items the shopping cart
-17:20:32.725 INFO  AUTOMATION - Dead driver
