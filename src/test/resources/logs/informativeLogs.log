@@ -1,14 +1,8 @@
-21:25:43.425 INFO  AUTOMATION - Initialized driver
-21:25:46.067 INFO  AUTOMATION - Visit the page https://www.saucedemo.com/ 
-21:25:47.321 INFO  AUTOMATION - The user write username locked_out_user 
-21:25:47.590 INFO  AUTOMATION - The user write password secret_sauce 
-21:25:47.803 INFO  AUTOMATION - The click on the button login
-21:25:47.963 INFO  AUTOMATION - Verifies that visible, see message
-21:25:48.041 INFO  AUTOMATION - Dead driver
-21:25:48.390 INFO  AUTOMATION - Initialized driver
-21:25:50.019 INFO  AUTOMATION - Visit the page https://www.saucedemo.com/ 
-21:25:51.210 INFO  AUTOMATION - The user write username locked_out_user 
-21:25:51.483 INFO  AUTOMATION - The user write password secret_sauce 
-21:25:51.696 INFO  AUTOMATION - The click on the button login
-21:25:51.849 INFO  AUTOMATION - Verifies that visible, see message
-21:25:51.917 INFO  AUTOMATION - Dead driver
+12:24:39.528 INFO  AUTOMATION - Initialized driver
+12:24:41.445 INFO  AUTOMATION - Visit the page https://www.saucedemo.com/ 
+12:24:42.196 INFO  AUTOMATION - The user write username
+12:24:42.419 INFO  AUTOMATION - The user write password
+12:24:42.585 INFO  AUTOMATION - The click on the button login
+12:24:42.729 INFO  AUTOMATION - The user sort the items descending by name
+12:24:42.890 INFO  AUTOMATION - Waiting for order by page
+12:24:44.450 INFO  AUTOMATION - Dead driver

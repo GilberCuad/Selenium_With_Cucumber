@@ -7,7 +7,7 @@
 - Selenium
 
 ## Terminal execution by tags
-- mvn clean test-Dgroups="NameTag"
+- mvn test-Dgroups="NameTag"
 
 ## Execution cucumber reports
 - start target\cucumber-html-reports\overview-failures.html

@@ -25,7 +25,6 @@ public class Hooks {
 
         Logs.debug("Adding implicit wait");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-        // this is wait implicit global
 
         Logs.debug("Saving driver initialized");
         new WebDriverProvider().set(driver);

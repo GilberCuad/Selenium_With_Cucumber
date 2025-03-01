@@ -3,21 +3,18 @@ Feature: Login on Saucedemo
   Background:
     Given The user browse the page "https://www.saucedemo.com/"
 
-  @loginWithIncorrectCredentials
-  Scenario: Login with incorrect credentials
-    When The user write the username "locked_out_user" and write the password "secret_sauce"
-    And The user click on login button
-    Then The user verifies error message contains text "Epic sadface: Sorry, this user has been locked out."
 
   @scenarioOutlineLoginIncorrect
   Scenario Outline: Login with incorrect credentials
     When The user write the username <username> and write the password <password>
     And The user click on login button
-    Then The user verifies error message contains text <messagError>
+    Then The user verifies error message contains text <errorMessage>
 
     Examples:
-      | username          | password       | messagError                                           |
-      | "locked_out_user" | "secret_sauce" | "Epic sadface: Sorry, this user has been locked out." |
+      | username          | password       | errorMessage                                                                |
+      | "locked_out_user" | "secret_sauce" | "Epic sadface: Sorry, this user has been locked out."                       |
+      | "userError"       | "as43sd#"      | "Epic sadface: Username and password do not match any user in this service" |
+
 
   @verifiesUI
   Scenario:  Verifies the page UI
