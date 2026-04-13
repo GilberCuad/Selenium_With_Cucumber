@@ -7,11 +7,11 @@ import utilities.Logs;
 
 public class LoginPage extends BasePage {
 
-    private By usernameInput = By.id("user-name");
-    private By passwordInput = By.id("password");
-    private By loginButton = By.id("login-button");
-    private By errorMessage = By.cssSelector("h3[data-test='error']");
-    private By loginTittle = By.className("login_logo");
+    private final By usernameInput = By.id("user-name");
+    private final By passwordInput = By.id("password");
+    private final By loginButton = By.id("login-button");
+    private final By errorMessage = By.cssSelector("h3[data-test='error']");
+    private final By loginTittle = By.className("login_logo");
 
     public void browseUrl(String url) {
         getDriver().get(url);

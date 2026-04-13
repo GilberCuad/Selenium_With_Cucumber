@@ -1,9 +1,9 @@
 package hooks;
 
 import io.cucumber.java.*;
-import org.apache.commons.logging.Log;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import utilities.Logs;
 import utilities.WebDriverProvider;
 
@@ -15,7 +15,19 @@ public class Hooks {
     @Before
     public static void before(Scenario scenario) {
         Logs.info("Initialized driver");
-        driver = new ChromeDriver();
+
+        ChromeOptions options = new ChromeOptions();
+
+        // Activa headless si se pasa -Dheadless=true (necesario en Jenkins/Docker)
+        if (Boolean.parseBoolean(System.getProperty("headless", "false"))) {
+            Logs.debug("Running in headless mode");
+            options.addArguments("--headless=new");
+            options.addArguments("--no-sandbox");
+            options.addArguments("--disable-dev-shm-usage");
+            options.addArguments("--window-size=1920,1080");
+        }
+
+        driver = new ChromeDriver(options);
 
         Logs.debug("Maximized display");
         driver.manage().window().maximize();
@@ -30,11 +42,8 @@ public class Hooks {
         new WebDriverProvider().set(driver);
     }
 
-
     @After
     public static void after(Scenario scenario) {
-        // Get name and status by scenarios
-        // Logs.info("Executing before finalized of scenario: %s, status: %s", scenario.getName(), scenario.getStatus());
         Logs.info("Dead driver");
         driver.quit();
     }
