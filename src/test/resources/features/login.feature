@@ -4,7 +4,7 @@ Feature: Login on Saucedemo
     Given The user browse the page "https://www.saucedemo.com/"
 
 
-  @scenarioOutlineLoginIncorrect
+  @scenarioOutlineLoginIncorrect @smoke
   Scenario Outline: Login with incorrect credentials
     When The user write the username <username> and write the password <password>
     Then The user verifies error message contains text <errorMessage>
